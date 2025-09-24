@@ -3,6 +3,7 @@ package claudiopostiglione.entities;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -24,6 +25,8 @@ public class Evento {
     @JoinColumn(name = "id_location", nullable = false)
     private Location location;
 
+    @OneToMany(mappedBy = "partecipazioni")
+    List<Partecipazione> partecipazioni;
 
     //Costruttori
     public Evento(){}

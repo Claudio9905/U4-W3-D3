@@ -24,6 +24,9 @@ public class Persona {
     @OneToMany(mappedBy = "partecipazione")
     private List<Partecipazione> partecipazioni;
 
+
+
+
     //Costruttori
     public Persona(){}
 
