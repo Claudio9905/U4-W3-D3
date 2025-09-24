@@ -25,7 +25,6 @@ public class Evento {
     private Location location;
 
 
-
     //Costruttori
     public Evento(){}
 

@@ -22,7 +22,6 @@ public class Location {
     private List<Evento> eventi = new ArrayList<>();
 
 
-
     //Costruttori
 
     public Location(){};

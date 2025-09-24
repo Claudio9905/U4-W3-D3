@@ -14,11 +14,17 @@ public class Partecipazione {
     private UUID id_partecipazione;
     private Stato stato;
 
+
+    @ManyToOne
+    @JoinColumn(name = "id_persona", nullable = false)
+    private Persona persona;
+
     //Costruttori
     public Partecipazione(){};
 
-    public Partecipazione(Stato stato){
+    public Partecipazione(Stato stato, Persona persona){
         this.stato = stato;
+        this.persona = persona;
     }
 
     //Metodi

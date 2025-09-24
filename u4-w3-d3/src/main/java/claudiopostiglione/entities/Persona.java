@@ -3,6 +3,7 @@ package claudiopostiglione.entities;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -19,15 +20,20 @@ public class Persona {
     private LocalDate data_di_nascita;
     private SessoPersona sesso;
 
+
+    @OneToMany(mappedBy = "partecipazione")
+    private List<Partecipazione> partecipazioni;
+
     //Costruttori
     public Persona(){}
 
-    public Persona(String nome, String cognome, String email, LocalDate data_di_nascita, SessoPersona sesso){
+    public Persona(String nome, String cognome, String email, LocalDate data_di_nascita, SessoPersona sesso,List<Partecipazione> partecipazioni){
         this.nome = nome;
         this.cognome = cognome;
         this.email = email;
         this.data_di_nascita = data_di_nascita;
         this.sesso = sesso;
+        this.partecipazioni = partecipazioni;
     }
 
     //Metodi
@@ -84,6 +90,7 @@ public class Persona {
                 ", email='" + email + '\'' +
                 ", data_di_nascita=" + data_di_nascita +
                 ", sesso=" + sesso +
+                ", partecipazioni=" + partecipazioni +
                 '}';
     }
 }
