@@ -21,10 +21,8 @@ public class Persona {
     private SessoPersona sesso;
 
 
-    @OneToMany(mappedBy = "partecipazione")
+    @OneToMany(mappedBy = "persona")
     private List<Partecipazione> partecipazioni;
-
-
 
 
     //Costruttori

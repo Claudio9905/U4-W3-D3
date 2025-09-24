@@ -50,6 +50,8 @@ public class Partecipazione {
         return "Partecipazione{" +
                 "id_partecipazione=" + id_partecipazione +
                 ", stato=" + stato +
+                ", persona=" + persona +
+                ", evento=" + evento +
                 '}';
     }
 }

@@ -25,7 +25,7 @@ public class Evento {
     @JoinColumn(name = "id_location", nullable = false)
     private Location location;
 
-    @OneToMany(mappedBy = "partecipazioni")
+    @OneToMany(mappedBy = "evento")
     List<Partecipazione> partecipazioni;
 
     //Costruttori
@@ -104,6 +104,7 @@ public class Evento {
                 ", type=" + type +
                 ", numero_max_partecipanti=" + numero_max_partecipanti +
                 ", location=" + location +
+                ", partecipazioni=" + partecipazioni +
                 '}';
     }
 }
