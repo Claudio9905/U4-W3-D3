@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a14ce30e-bff7-487c-b9a7-e677017960ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/claudiopostiglione/entities/Concerto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claudiopostiglione/entities/GaraDiAtletica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claudiopostiglione/entities/Genere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/claudiopostiglione/entities/PartitaDiCalcio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/claudiopostiglione/dao/EventoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claudiopostiglione/dao/EventoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/claudiopostiglione/entities/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/claudiopostiglione/entities/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

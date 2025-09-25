@@ -8,6 +8,9 @@
         <class>claudiopostiglione.entities.Location</class>
         <class>claudiopostiglione.entities.Partecipazione</class>
         <class>claudiopostiglione.entities.Persona</class>
+        <class>claudiopostiglione.entities.PartitaDiCalcio</class>
+        <class>claudiopostiglione.entities.GaraDiAtletica</class>
+        <class>claudiopostiglione.entities.Concerto</class>
         <properties>
             <!-- Qui andremo ad inserire proprietà che strutturano il file di configurazione specifico per il database utilizzato -->
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/gestioneEventi2"/>

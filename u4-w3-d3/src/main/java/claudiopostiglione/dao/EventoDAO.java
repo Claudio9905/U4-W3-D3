@@ -61,6 +61,10 @@ public class EventoDAO {
         return  query.getResultList();
     }
 
-    
+    //public List<PartitaDiCalcio> getPartiteVinteInCasa(Vittoria partiteVinte){
+    //  TypedQuery<Concerto> query = entityManager.createQuery("SELECT p.partita.partiteVinteInCasa FROM PartitaDiCalcio p"
+    //  return query.getResultList();
+    // }
+    //public List<PartitaDiCalcio> getPartiteVinteInTrasferta(){}
 
 }
