@@ -9,7 +9,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
-import java.time.LocalDate;
+
 
 public class Application {
 
@@ -25,11 +25,10 @@ public class Application {
 
 
         Location locationMuseo = new Location("Reggia di Caserta", "Napoli");
-        Evento visitaMuseo = new Evento("Mostra di Van Gogh", LocalDate.of(2025,10,12),"Partecipa ad una bellissima mostra sulle grandi opere del grande pittore Vincent Van Gogh", TipologiaEvento.PUBBLICO,200,locationMuseo);
+
        // Persona visitatore = new Persona("Claudio", "Postiglione","cloudpost10@gmail.com",LocalDate.of(1999,11,10), SessoPersona.M,)
 
         ld.save(locationMuseo);
-        ed.save(visitaMuseo);
 
 
 
